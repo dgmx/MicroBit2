@@ -2,7 +2,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Sad)
 })
 input.onGesture(Gesture.Shake, function () {
-    basic.showString("No me muevas")
+    basic.showIcon(IconNames.Skull)
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showNumber(8)
